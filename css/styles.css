@@ -272,9 +272,11 @@ body {
 }
 .email-icon {
   margin-right: 10px;
+  fill: var(--secondary-text-color);
 }
 .smartphone-icon {
   margin-right: 10px;
+  fill: var(--secondary-text-color);
 }
 .header {
   display: flex;
@@ -503,7 +505,7 @@ body {
   line-height: 1.16;
   text-align: center;
 }
-.clients {
+.clients-section {
   padding-bottom: 94px;
 }
 .clients-list {
@@ -542,8 +544,6 @@ body {
 
 /* footer */
 .footer-general.container {
-  padding-right: 0px;
-  padding-left: 0px;
   display: flex;
 }
 .logo-footer {
@@ -645,4 +645,7 @@ body {
 }
 .footer-social-icon {
   fill: var(--white-text-color);
+}
+.footer-left {
+  flex-shrink: 0;
 }
